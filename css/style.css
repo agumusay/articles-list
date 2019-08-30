@@ -1,0 +1,40 @@
+html {
+    font-family: Source Sans Pro;
+    background-image: linear-gradient(azure, aqua);
+  }
+  
+  .art1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+     url(https://cdn.pixabay.com/photo/2016/10/11/21/43/geometric-1732847_960_720.jpg);
+    background-size: cover;
+    color: whitesmoke;
+  }
+  .art2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+     url(https://cdn.pixabay.com/photo/2018/05/09/11/08/network-3385093_960_720.jpg);
+    background-size: cover;
+    color: whitesmoke;
+  }
+  .art3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://cdn.pixabay.com/photo/2017/10/25/21/28/abstract-2889368_960_720.jpg);
+    background-size: cover;
+    color: whitesmoke;
+  }
+  article > a {
+    font-size: 1.5em;
+    position: absolute;
+    bottom: 0;
+  }
+  h2{
+    color: gainsboro;
+  }
+
+  article *{
+    margin: 0;
+    padding: 0;
+  }
+  article {
+    height: 30vh;
+    position: relative;
+  }
